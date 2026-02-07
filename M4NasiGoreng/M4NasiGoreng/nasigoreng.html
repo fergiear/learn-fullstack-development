@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: white;
+            width: 350px;
+            border: 3px solid #1a1a1a;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 10px 10px 0px #e0e0e0;
+            position: relative;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            border: 2px solid #333;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .title {
+            font-size: 32px;
+            margin: 20px 0 10px 0;
+            color: #1a1a1a;
+            font-weight: bold;
+        }
+
+        .price {
+            font-size: 28px;
+            color: #f39c12;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .btn-pesan {
+            display: block;
+            width: 100%;
+            background-color: #ffeaa7;
+            border: 3px solid #f39c12;
+            border-radius: 15px;
+            padding: 12px 0;
+            font-size: 24px;
+            color: #f39c12;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.1s;
+            cursor: pointer;
+        }
+
+        .btn-pesan:active {
+            transform: scale(0.98);
+            background-color: #fab1a0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="image-container">
+            <img src="/M4NasiGoreng/images/nasgor.jpg" alt="image">
+        </div>
+
+        <div class="title">Nasi Goreng</div>
+        <div class="price">Rp.15.000</div>
+        
+        <button class="btn-pesan">Pesan</button>
+    </div>
+
+</body>
+</html>
